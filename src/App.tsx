@@ -22,12 +22,7 @@ function App() {
   return (
     <main>
       <h1>{user?.signInDetails?.loginId}'s Account</h1>
-      <div>
-        <h1>Happy Coding, Guys!</h1>
-        <p class="glow">Code, create, and conquer!</p>
-        <button class="button" onclick="alert('Thank You for your valuable Time 🙏!')">Click Here for surprise!🤩 </button>
-    </div>
-     <br></br>
+      
       <button onClick={signOut}>Sign out</button>
     </main>
   );
